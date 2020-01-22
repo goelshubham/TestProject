@@ -17,7 +17,7 @@ public class SortedLinkedList {
 
 	/**
 	 * Method to add an integer to the SortedLinkedList
-	 * Time complexity: O(n)
+	 * Time complexity: O(n) where n is the number of integers inserted
 	 */
 	public void add(int data) {
 
@@ -55,7 +55,7 @@ public class SortedLinkedList {
 
 	/**
 	 * Method to print the contents of SortedLinkedList
-	 * Time Complexity: O(n)
+	 * Time Complexity: O(n) where n is the number of integers inserted
 	 */
 	public String toString() {
 		StringBuilder result = new StringBuilder();

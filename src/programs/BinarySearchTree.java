@@ -45,6 +45,7 @@ public class BinarySearchTree {
 
 	
 	
+	//time complexity = O(n) where n is the number of elements inserted
 	public String toString() {
 		result = new StringBuilder();
 		result.append("[");
